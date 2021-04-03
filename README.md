@@ -5,12 +5,14 @@
 
 - [Google Collab](https://colab.research.google.com/)
 
-## TODO
+## Operate
+
+Just open <https://colab.research.google.com/github/EugenHotaj/pytorch-generative/blob/master/notebooks/style_transfer.ipynb>
+
+## Below attemps to recreate 2020-04-03 version
 
 - Cleanup notebook code to have this self contained
   - Notebook point to it's own repo (which has change or evolved)
-
-I copied notebooks from `EugenHotaj/pytorch-generative/notebooks` into this repo.
 
 I also copied the repo as used originally on 2020-04-03 into `notebooks-2020-04-03/`
 
