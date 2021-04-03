@@ -5,6 +5,25 @@
 
 - [Google Collab](https://colab.research.google.com/)
 
-imported notebooks from `EugenHotaj/pytorch-generative/notebooks` into this repo.
+## TODO
+
+- Cleanup notebook code to have this self contained
+  - Notebook point to it's own repo (which has change or evolved)
+
+I copied notebooks from `EugenHotaj/pytorch-generative/notebooks` into this repo.
+
+I also copied the repo as used originally on 2020-04-03 into `notebooks-2020-04-03/`
+
+Just open <https://colab.research.google.com/github/daneroo/style-transfer/blob/main/notebooks-2020-04-03/style_transfer.ipynb>
+
+And replace the first block with
+
+```bash
+!pip install kornia
+!rm -rf nn_hallucinations style-transfer
+!git clone https://github.com/daneroo/style-transfer 
+!mv 'style-transfer/notebooks-2020-04-03' nn_hallucinations
+!ls
+```
 
 ![Example Result](./results/dali-dan-pub-result.png  "Example Result")
