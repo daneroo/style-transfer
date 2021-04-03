@@ -9,7 +9,7 @@
 
 Just open <https://colab.research.google.com/github/EugenHotaj/pytorch-generative/blob/master/notebooks/style_transfer.ipynb>
 
-## Below attemps to recreate 2020-04-03 version
+## Below: attempts to recreate 2020-04-03 version
 
 - Cleanup notebook code to have this self contained
   - Notebook point to it's own repo (which has change or evolved)
